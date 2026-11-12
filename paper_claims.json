@@ -1,0 +1,126 @@
+{
+  "nLLM": 1200,
+  "nBaseline": 150,
+  "nPrimary": 1350,
+  "nExact": 853,
+  "nNonReference": 36,
+  "nFirstValid": 889,
+  "nAllValid": 889,
+  "nGapCells": 13,
+  "nZeroGapCells": 47,
+  "minGap": 5.0,
+  "maxGap": 30.0,
+  "medianGap": 0.0,
+  "medianPositiveGap": 10.0,
+  "nMulti": 0,
+  "nAllLoss": 0,
+  "nBestGain": 0,
+  "nUnparseable": 30,
+  "nDecimal": 8,
+  "nCriterionTaskOnly": 110,
+  "nCriterionOnly": 0,
+  "nFit": 141,
+  "nFitLow": 0,
+  "nFitMid": 19,
+  "nLegacyLow": 0,
+  "nLegacyMid": 22,
+  "llm_verdicts": {
+    "valid_non_reference": 36,
+    "exactly_correct": 853,
+    "empty_output": 82,
+    "implausible": 141,
+    "correct_but_trivial": 12,
+    "sound_incomplete": 6,
+    "refused": 40,
+    "unparseable": 30
+  },
+  "baseline_verdicts": {
+    "sound_incomplete": 16,
+    "plausible_but_wrong": 55,
+    "exact_after_rounding": 29,
+    "exactly_correct": 8,
+    "valid_non_reference": 14,
+    "implausible": 25,
+    "correct_but_trivial": 3
+  },
+  "deployments": {
+    "Groq": {
+      "n": 400,
+      "verdicts": {
+        "valid_non_reference": 16,
+        "exactly_correct": 274,
+        "empty_output": 37,
+        "implausible": 44,
+        "correct_but_trivial": 4,
+        "sound_incomplete": 3,
+        "refused": 19,
+        "unparseable": 3
+      },
+      "truncated": 38,
+      "multi": 0,
+      "multi_all_valid": 0
+    },
+    "Cerebras": {
+      "n": 400,
+      "verdicts": {
+        "exactly_correct": 271,
+        "empty_output": 42,
+        "implausible": 38,
+        "correct_but_trivial": 8,
+        "valid_non_reference": 20,
+        "refused": 18,
+        "unparseable": 1,
+        "sound_incomplete": 2
+      },
+      "truncated": 42,
+      "multi": 0,
+      "multi_all_valid": 0
+    },
+    "Gemini": {
+      "n": 400,
+      "verdicts": {
+        "exactly_correct": 308,
+        "unparseable": 26,
+        "empty_output": 3,
+        "implausible": 59,
+        "refused": 3,
+        "sound_incomplete": 1
+      },
+      "truncated": 26,
+      "multi": 0,
+      "multi_all_valid": 0
+    }
+  },
+  "multi_cells": [],
+  "kepler_references": {
+    "E": 133,
+    "L": 104,
+    "Ax": 1
+  },
+  "nKepler": 238,
+  "nKeplerEnergy": 133,
+  "nKeplerAngular": 104,
+  "nAcrobot": 270,
+  "nAcrobotExact": 14,
+  "quadratic_nonreference": 35,
+  "cubic_nonreference": [
+    {
+      "model": "gpt-oss-120b",
+      "system": "moiety_network",
+      "condition": "A",
+      "sample": 18,
+      "polynomial": "A**3 - 3*A**2*B + 3*A*B**2 - B**3",
+      "cubed_reference": "A - B"
+    }
+  ],
+  "rational_baseline": {
+    "n": 150,
+    "first_valid": 134,
+    "any_valid": 135,
+    "all_valid": 98,
+    "curve_complete": 30
+  },
+  "nCASLiteral": 1198,
+  "nCASReconstructed": 29,
+  "nCASNonalgebraic": 152
+}

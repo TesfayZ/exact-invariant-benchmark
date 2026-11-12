@@ -1,0 +1,37 @@
+{
+  "LLMs": {
+    "literal_failures_with_fit": 141,
+    "legacy": {
+      "0.001": 0,
+      "0.01": 0,
+      "0.05": 22
+    },
+    "centred": {
+      "0.001": 0,
+      "0.01": 0,
+      "0.05": 19
+    }
+  },
+  "SINDy": {
+    "literal_failures_with_fit": 109,
+    "legacy": {
+      "0.001": 109,
+      "0.01": 109,
+      "0.05": 109
+    },
+    "centred": {
+      "0.001": 84,
+      "0.01": 86,
+      "0.05": 97
+    }
+  },
+  "former_baseline_coefficient_policy": {
+    "strict": 20,
+    "reconstructed": 18
+  },
+  "paired_refusal": {
+    "groq_only": 0,
+    "cerebras_only": 0,
+    "two_sided_p": 1.0
+  }
+}

@@ -1,0 +1,8 @@
+python    3.14.6 Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43 x86_64
+numpy     2.5.4
+scipy     1.18.1
+sympy     1.14.0
+pysindy   2.1.0
+blas      scipy-openblas 0.3.34.106.0
+ALGEBRAIC_RL_REPO /home/tesfay/projects/exact-invariant-benchmark/algebraicRLtest
+algebraicRLtest commit 687c868c204b8ec537451b5e046532de80197d9d

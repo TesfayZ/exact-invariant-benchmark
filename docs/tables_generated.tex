@@ -1,0 +1,175 @@
+\newcommand{\tabLLMGroq}{%
+\begin{tabular}{@{}l l c r l l@{}}\toprule
+System & Variant & Input & $n$ & Reference recovery [95\% CI] & Task-valid [95\% CI] \\\midrule
+Acrobot & Canonical & A & 20 & 5 [1,24] & 5 [1,24] \\
+Acrobot & Canonical & B & 20 & 10 [3,30] & 10 [3,30] \\
+Acrobot & Twin & A & 20 & 0 [0,16] & 0 [0,16] \\
+Acrobot & Twin & B & 20 & 0 [0,16] & 0 [0,16] \\
+Kepler & Canonical & A & 20 & 100 [84,100] & 100 [84,100] \\
+Kepler & Canonical & B & 20 & 100 [84,100] & 100 [84,100] \\
+Kepler & Twin & A & 20 & 100 [84,100] & 100 [84,100] \\
+Kepler & Twin & B & 20 & 100 [84,100] & 100 [84,100] \\
+Moiety & Canonical & A & 20 & 95 [76,99] & 100 [84,100] \\
+Moiety & Canonical & B & 20 & 90 [70,97] & 100 [84,100] \\
+Moiety & Twin & A & 20 & 95 [76,99] & 95 [76,99] \\
+Moiety & Twin & B & 20 & 70 [48,85] & 100 [84,100] \\
+Rigid & Canonical & A & 20 & 95 [76,99] & 100 [84,100] \\
+Rigid & Canonical & B & 20 & 80 [58,92] & 95 [76,99] \\
+Rigid & Twin & A & 20 & 90 [70,97] & 90 [70,97] \\
+Rigid & Twin & B & 20 & 55 [34,74] & 70 [48,85] \\
+Twisted & Canonical & A & 20 & 100 [84,100] & 100 [84,100] \\
+Twisted & Canonical & B & 20 & 85 [64,95] & 85 [64,95] \\
+Twisted & Twin & A & 20 & 100 [84,100] & 100 [84,100] \\
+Twisted & Twin & B & 20 & 0 [0,16] & 0 [0,16] \\
+\bottomrule\end{tabular}}
+\newcommand{\tabLLMCerebras}{%
+\begin{tabular}{@{}l l c r l l@{}}\toprule
+System & Variant & Input & $n$ & Reference recovery [95\% CI] & Task-valid [95\% CI] \\\midrule
+Acrobot & Canonical & A & 20 & 0 [0,16] & 0 [0,16] \\
+Acrobot & Canonical & B & 20 & 5 [1,24] & 5 [1,24] \\
+Acrobot & Twin & A & 20 & 0 [0,16] & 0 [0,16] \\
+Acrobot & Twin & B & 20 & 0 [0,16] & 0 [0,16] \\
+Kepler & Canonical & A & 20 & 100 [84,100] & 100 [84,100] \\
+Kepler & Canonical & B & 20 & 100 [84,100] & 100 [84,100] \\
+Kepler & Twin & A & 20 & 100 [84,100] & 100 [84,100] \\
+Kepler & Twin & B & 20 & 100 [84,100] & 100 [84,100] \\
+Moiety & Canonical & A & 20 & 90 [70,97] & 100 [84,100] \\
+Moiety & Canonical & B & 20 & 70 [48,85] & 95 [76,99] \\
+Moiety & Twin & A & 20 & 100 [84,100] & 100 [84,100] \\
+Moiety & Twin & B & 20 & 75 [53,89] & 100 [84,100] \\
+Rigid & Canonical & A & 20 & 95 [76,99] & 100 [84,100] \\
+Rigid & Canonical & B & 20 & 75 [53,89] & 95 [76,99] \\
+Rigid & Twin & A & 20 & 90 [70,97] & 95 [76,99] \\
+Rigid & Twin & B & 20 & 60 [39,78] & 70 [48,85] \\
+Twisted & Canonical & A & 20 & 100 [84,100] & 100 [84,100] \\
+Twisted & Canonical & B & 20 & 90 [70,97] & 90 [70,97] \\
+Twisted & Twin & A & 20 & 100 [84,100] & 100 [84,100] \\
+Twisted & Twin & B & 20 & 5 [1,24] & 5 [1,24] \\
+\bottomrule\end{tabular}}
+\newcommand{\tabLLMGemini}{%
+\begin{tabular}{@{}l l c r l l@{}}\toprule
+System & Variant & Input & $n$ & Reference recovery [95\% CI] & Task-valid [95\% CI] \\\midrule
+Acrobot & Canonical & A & 20 & 5 [1,24] & 5 [1,24] \\
+Acrobot & Canonical & B & 20 & 30 [15,52] & 30 [15,52] \\
+Acrobot & Twin & A & 20 & 0 [0,16] & 0 [0,16] \\
+Acrobot & Twin & B & 20 & 15 [5,36] & 15 [5,36] \\
+Kepler & Canonical & A & 20 & 100 [84,100] & 100 [84,100] \\
+Kepler & Canonical & B & 20 & 90 [70,97] & 90 [70,97] \\
+Kepler & Twin & A & 20 & 100 [84,100] & 100 [84,100] \\
+Kepler & Twin & B & 20 & 100 [84,100] & 100 [84,100] \\
+Moiety & Canonical & A & 20 & 100 [84,100] & 100 [84,100] \\
+Moiety & Canonical & B & 20 & 100 [84,100] & 100 [84,100] \\
+Moiety & Twin & A & 20 & 100 [84,100] & 100 [84,100] \\
+Moiety & Twin & B & 20 & 100 [84,100] & 100 [84,100] \\
+Rigid & Canonical & A & 20 & 100 [84,100] & 100 [84,100] \\
+Rigid & Canonical & B & 20 & 100 [84,100] & 100 [84,100] \\
+Rigid & Twin & A & 20 & 100 [84,100] & 100 [84,100] \\
+Rigid & Twin & B & 20 & 100 [84,100] & 100 [84,100] \\
+Twisted & Canonical & A & 20 & 95 [76,99] & 95 [76,99] \\
+Twisted & Canonical & B & 20 & 100 [84,100] & 100 [84,100] \\
+Twisted & Twin & A & 20 & 100 [84,100] & 100 [84,100] \\
+Twisted & Twin & B & 20 & 5 [1,24] & 5 [1,24] \\
+\bottomrule\end{tabular}}
+\newcommand{\tabSINDy}{%
+\begin{tabular}{@{}l l r r r r r r@{}}\toprule
+System & Variant & $n$ & Reference & Task-valid & Reconstructed & Incomplete & Trivial \\\midrule
+Twisted cubic & Canonical & 15 & 0 & 0 & 0 & 15 & 0 \\
+Rigid body & Canonical & 15 & 0 & 0 & 6 & 0 & 0 \\
+Kepler & Canonical & 15 & 5 & 5 & 8 & 0 & 0 \\
+Moiety & Canonical & 15 & 1 & 14 & 1 & 0 & 0 \\
+Acrobot & Canonical & 15 & 0 & 0 & 0 & 0 & 1 \\
+\midrule
+Twisted cubic & Twin & 15 & 0 & 0 & 2 & 1 & 0 \\
+Rigid body & Twin & 15 & 0 & 0 & 0 & 0 & 0 \\
+Kepler & Twin & 15 & 0 & 0 & 10 & 0 & 0 \\
+Moiety & Twin & 15 & 2 & 3 & 2 & 0 & 0 \\
+Acrobot & Twin & 15 & 0 & 0 & 0 & 0 & 2 \\
+\bottomrule\end{tabular}}
+\newcommand{\tabInfl}{%
+\begin{tabular}{@{}l l r r r r r r@{}}\toprule Tier & Cell & Permissive & Valid & Gap & Recon. & Trivial & Incompl. \\\midrule
+SINDy & Twisted, B & 100.0\% & 0.0\% & 100.0 pts & 0/15 & 0/15 & 15/15 \\
+SINDy & Kepler\_p, B & 66.7\% & 0.0\% & 66.7 pts & 10/15 & 0/15 & 0/15 \\
+SINDy & Kepler, B & 86.7\% & 33.3\% & 53.3 pts & 8/15 & 0/15 & 0/15 \\
+SINDy & Rigid, B & 40.0\% & 0.0\% & 40.0 pts & 6/15 & 0/15 & 0/15 \\
+Cerebras & Acrobot\_p, A & 25.0\% & 0.0\% & 25.0 pts & 0/20 & 5/20 & 0/20 \\
+SINDy & Twisted\_p, B & 20.0\% & 0.0\% & 20.0 pts & 2/15 & 0/15 & 1/15 \\
+Groq & Twisted, B & 100.0\% & 85.0\% & 15.0 pts & 0/20 & 0/20 & 3/20 \\
+SINDy & Moiety\_p, B & 33.3\% & 20.0\% & 13.3 pts & 2/15 & 0/15 & 0/15 \\
+SINDy & Acrobot\_p, B & 13.3\% & 0.0\% & 13.3 pts & 0/15 & 2/15 & 0/15 \\
+Groq & Acrobot, A & 15.0\% & 5.0\% & 10.0 pts & 0/20 & 2/20 & 0/20 \\
+\bottomrule\end{tabular}}
+\newcommand{\inflLLMmax}{25}
+\newcommand{\inflSINDymax}{100}
+\newcommand{\inflSINDymin}{0}
+\newcommand{\inflLLMnonzero}{9}
+\newcommand{\inflLLMcells}{60}
+\newcommand{\tabSensitivity}{%
+\begin{tabular}{@{}l l r r r r@{}}\toprule
+Outputs & Diagnostic & $n$ & $<10^{-3}$ & $<10^{-2}$ & $<5\times10^{-2}$ \\\midrule
+LLMs & uncentred & 141 & 0 & 0 & 22 \\
+LLMs & centred & 141 & 0 & 0 & 19 \\
+SINDy & uncentred & 109 & 109 & 109 & 109 \\
+SINDy & centred & 109 & 84 & 86 & 97 \\
+\bottomrule\end{tabular}}
+\newcommand{\tabRuntimeRows}{%
+Twisted cubic (canonical) & 6.5 \\
+Rigid body (canonical) & 1.7 \\
+Kepler (canonical) & 5.9 \\
+Moiety (canonical) & 3.5 \\
+Acrobot (canonical) & 6.7 \\
+Twisted cubic (twin) & 7.0 \\
+Rigid body (twin) & 1.7 \\
+Kepler (twin) & 7.1 \\
+Moiety (twin) & 1.3 \\
+Acrobot (twin) & 7.9 \\
+}
+\newcommand{\tabPolicySummary}{%
+\begin{tabular}{@{}lrrrrrr@{}}\toprule
+Deployment & $n$ & Reference & Task-valid & Additional valid & Gap cells & Max. gap \\\midrule
+Groq & 400 & 274 & 290 & 16 & 6/20 & 30.0 \\
+Cerebras & 400 & 271 & 291 & 20 & 7/20 & 25.0 \\
+Gemini & 400 & 308 & 308 & 0 & 0/20 & 0.0 \\
+\bottomrule\end{tabular}}
+\newcommand{\tabNonReference}{%
+\begin{tabular}{@{}lrrr@{}}\toprule
+Deployment & All outputs & Non-reference valid & Archive prevalence \\ \midrule
+Groq & 400 & 16 & 4.00\% \\
+Cerebras & 400 & 20 & 5.00\% \\
+Gemini & 400 & 0 & 0.00\% \\
+\bottomrule\end{tabular}}
+\newcommand{\tabExternalCriterion}{%
+\begin{tabular}{@{}lrrrrr@{}}\toprule
+Source & Parseable $n$ & Criterion & Task-valid & Criterion only & Task only \\\midrule
+Groq & 281 & 183 & 233 & 0 & 50 \\
+Cerebras & 278 & 175 & 232 & 0 & 57 \\
+Gemini & 298 & 245 & 248 & 0 & 3 \\
+Sparse float & 120 & 5 & 22 & 0 & 17 \\
+\bottomrule\end{tabular}}
+\newcommand{\tabRationalBaseline}{%
+\begin{tabular}{@{}llrrrr@{}}\toprule
+System & Variant & $n$ & First valid & Any valid & All valid \\\midrule
+Acrobot & Canonical & 15 & 15 & 15 & 0 \\
+Acrobot & Twin & 15 & 0 & 0 & 0 \\
+Kepler & Canonical & 15 & 14 & 15 & 3 \\
+Kepler & Twin & 15 & 15 & 15 & 5 \\
+Moiety & Canonical & 15 & 15 & 15 & 15 \\
+Moiety & Twin & 15 & 15 & 15 & 15 \\
+Rigid & Canonical & 15 & 15 & 15 & 15 \\
+Rigid & Twin & 15 & 15 & 15 & 15 \\
+Twisted & Canonical & 15 & 15 & 15 & 15 \\
+Twisted & Twin & 15 & 15 & 15 & 15 \\
+\bottomrule\end{tabular}}
+\newcommand{\tabSubmissionRuntime}{%
+\begin{tabular}{@{}lrrrrr@{}}\toprule
+System & $n$ & Degree range & Median ms & 95th pct. ms & Max. ms \\\midrule
+Acrobot & 104 & 3--6 & 24.1 & 65.7 & 122.1 \\
+Acrobot (twin) & 68 & 3--4 & 27.3 & 69.5 & 82.3 \\
+Kepler & 133 & 2--3 & 4.1 & 36.0 & 67.1 \\
+Kepler (twin) & 135 & 2--3 & 4.2 & 14.2 & 59.0 \\
+Moiety & 135 & 1--3 & 1.1 & 8.8 & 34.3 \\
+Moiety (twin) & 135 & 1--2 & 1.3 & 42.3 & 58.5 \\
+Rigid body & 133 & 2--4 & 1.7 & 11.0 & 26.9 \\
+Rigid body (twin) & 134 & 2--4 & 1.8 & 10.5 & 23.1 \\
+Twisted cubic & 135 & 2--3 & 3.9 & 5.2 & 7.6 \\
+Twisted cubic (twin) & 86 & 2--3 & 5.0 & 13.2 & 25.2 \\
+\bottomrule\end{tabular}}

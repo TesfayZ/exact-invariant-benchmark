@@ -1,0 +1,5 @@
+# Preserve upstream source bytes, including their original whitespace.
+vendor/** linguist-vendored -whitespace
+docs/tmlr.sty linguist-vendored -whitespace
+docs/tmlr.bst linguist-vendored -whitespace
+docs/fancyhdr.sty linguist-vendored -whitespace

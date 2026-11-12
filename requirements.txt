@@ -1,0 +1,24 @@
+# Pinned numpy/scipy require Python >=3.12; tested with Python 3.14.6.
+# core — needed by grade.py, data.py, controls.py, test_pipeline.py, analysis.py
+sympy==1.14.0
+# Versions the reported data/checks were run with: Python 3.14.6 (WSL2, x86_64), numpy 2.5.4, scipy 1.18.1.
+# Exact pins reproduce that environment; the ranges below were the previous minimums.
+numpy==2.5.4
+scipy==1.18.1
+# NOTE: pinning numpy/scipy does NOT make the trajectory numbers in the prompts bit-identical:
+# scipy 1.13.1 ... 1.17.1 (checked on Python 3.12) all regenerate the same 2 of 60 prompts (kepler/B/1, kepler_pert/B/1)
+# with slightly different trajectory digits (see REPRODUCE.md). The graded verdicts do not depend
+# on this (they use the stored prompts/outputs); test_fixes.py reports it as a WARN.
+# Run `python env_report.py` and keep the output with any reproduction you report.
+
+# optional — SINDy baseline (sr_sindy.py) only. Pins pysindy 2.1.0 because the script
+# calls a private method (_differentiate); a future release may rename it.
+pysindy==2.1.0
+
+# optional — only for `--provider anthropic` / `--provider openai`. Imported lazily
+# inside run_llm.py's call_* functions, so they are not required for Groq, Gemini,
+# Ollama, the mock, or any OpenAI-compatible endpoint.
+# anthropic
+# openai
+
+# not included — PySR (needs Julia; no runner is shipped).

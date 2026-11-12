@@ -1,0 +1,233 @@
+model                       system                  cond    n  exactly_c  exact_aft  correct_b  valid_non  sound_inc  plausible  implausib    refused  empty_out  unparseab  grader_un   exact% [95% CI]   sens
+gemini-3.5-flash-lite       acrobot                 A      20          1          0          0          0          0          0         16          1          0          2          0     5.0 [1,24]   0
+gemini-3.5-flash-lite       acrobot                 B      20          6          0          0          0          0          0          9          0          0          5          0    30.0 [15,52]   0
+gemini-3.5-flash-lite       acrobot_pert            A      20          0          0          0          0          0          0         14          1          1          4          0     0.0 [0,16]   0
+gemini-3.5-flash-lite       acrobot_pert            B      20          3          0          0          0          0          0         11          0          1          5          0    15.0 [5,36]   0
+gemini-3.5-flash-lite       kepler                  A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       kepler                  B      20         18          0          0          0          0          0          0          0          0          2          0    90.0 [70,97]   0
+gemini-3.5-flash-lite       kepler_pert             A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       kepler_pert             B      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       moiety_network          A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       moiety_network          B      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       moiety_network_pert     A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       moiety_network_pert     B      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       rigid_body_1_2_3        A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       rigid_body_1_2_3        B      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       rigid_body_3_5_11_pert  A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       rigid_body_3_5_11_pert  B      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       twisted_cubic           A      20         19          0          0          0          1          0          0          0          0          0          0    95.0 [76,99]   0
+gemini-3.5-flash-lite       twisted_cubic           B      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       twisted_cubic_pert      A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gemini-3.5-flash-lite       twisted_cubic_pert      B      20          1          0          0          0          0          0          9          1          1          8          0     5.0 [1,24]   0
+gpt-oss-120b                acrobot                 A      20          0          0          1          0          0          0         13          0          6          0          0     0.0 [0,16]   0
+gpt-oss-120b                acrobot                 B      20          1          0          0          0          0          0         10          0          9          0          0     5.0 [1,24]   0
+gpt-oss-120b                acrobot_pert            A      20          0          0          5          0          0          0          3          0         12          0          0     0.0 [0,16]   0
+gpt-oss-120b                acrobot_pert            B      20          0          0          2          0          0          0          4          0         14          0          0     0.0 [0,16]   0
+gpt-oss-120b                kepler                  A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gpt-oss-120b                kepler                  B      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gpt-oss-120b                kepler_pert             A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gpt-oss-120b                kepler_pert             B      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gpt-oss-120b                moiety_network          A      20         18          0          0          2          0          0          0          0          0          0          0    90.0 [70,97]   0
+gpt-oss-120b                moiety_network          B      20         14          0          0          5          0          0          1          0          0          0          0    70.0 [48,85]   0
+gpt-oss-120b                moiety_network_pert     A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gpt-oss-120b                moiety_network_pert     B      20         15          0          0          5          0          0          0          0          0          0          0    75.0 [53,89]   0
+gpt-oss-120b                rigid_body_1_2_3        A      20         19          0          0          1          0          0          0          0          0          0          0    95.0 [76,99]   0
+gpt-oss-120b                rigid_body_1_2_3        B      20         15          0          0          4          0          0          0          0          0          1          0    75.0 [53,89]   0
+gpt-oss-120b                rigid_body_3_5_11_pert  A      20         18          0          0          1          0          0          1          0          0          0          0    90.0 [70,97]   0
+gpt-oss-120b                rigid_body_3_5_11_pert  B      20         12          0          0          2          0          0          6          0          0          0          0    60.0 [39,78]   0
+gpt-oss-120b                twisted_cubic           A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gpt-oss-120b                twisted_cubic           B      20         18          0          0          0          2          0          0          0          0          0          0    90.0 [70,97]   0
+gpt-oss-120b                twisted_cubic_pert      A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+gpt-oss-120b                twisted_cubic_pert      B      20          1          0          0          0          0          0          0         18          1          0          0     5.0 [1,24]   0
+implicit-sindy(pysindy-lib) acrobot                 B      15          0          0          1          0          0          1         13          0          0          0          0     0.0 [0,20]   0
+implicit-sindy(pysindy-lib) acrobot_pert            B      15          0          0          2          0          0          1         12          0          0          0          0     0.0 [0,20]   0
+implicit-sindy(pysindy-lib) kepler                  B      15          5          8          0          0          0          2          0          0          0          0          0    33.3 [15,58]   4
+implicit-sindy(pysindy-lib) kepler_pert             B      15          0         10          0          0          0          5          0          0          0          0          0     0.0 [0,20]   1
+implicit-sindy(pysindy-lib) moiety_network          B      15          1          1          0         13          0          0          0          0          0          0          0     6.7 [1,30]   1
+implicit-sindy(pysindy-lib) moiety_network_pert     B      15          2          2          0          1          0         10          0          0          0          0          0    13.3 [4,38]   3
+implicit-sindy(pysindy-lib) rigid_body_1_2_3        B      15          0          6          0          0          0          9          0          0          0          0          0     0.0 [0,20]   11
+implicit-sindy(pysindy-lib) rigid_body_3_5_11_pert  B      15          0          0          0          0          0         15          0          0          0          0          0     0.0 [0,20]   0
+implicit-sindy(pysindy-lib) twisted_cubic           B      15          0          0          0          0         15          0          0          0          0          0          0     0.0 [0,20]   0
+implicit-sindy(pysindy-lib) twisted_cubic_pert      B      15          0          2          0          0          1         12          0          0          0          0          0     0.0 [0,20]   3
+openai/gpt-oss-120b         acrobot                 A      20          1          0          2          0          0          0         16          0          1          0          0     5.0 [1,24]   0
+openai/gpt-oss-120b         acrobot                 B      20          2          0          0          0          0          0         11          0          7          0          0    10.0 [3,30]   0
+openai/gpt-oss-120b         acrobot_pert            A      20          0          0          1          0          0          0          2          0         15          2          0     0.0 [0,16]   0
+openai/gpt-oss-120b         acrobot_pert            B      20          0          0          1          0          0          0          7          0         12          0          0     0.0 [0,16]   0
+openai/gpt-oss-120b         kepler                  A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+openai/gpt-oss-120b         kepler                  B      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+openai/gpt-oss-120b         kepler_pert             A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+openai/gpt-oss-120b         kepler_pert             B      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+openai/gpt-oss-120b         moiety_network          A      20         19          0          0          1          0          0          0          0          0          0          0    95.0 [76,99]   0
+openai/gpt-oss-120b         moiety_network          B      20         18          0          0          2          0          0          0          0          0          0          0    90.0 [70,97]   0
+openai/gpt-oss-120b         moiety_network_pert     A      20         19          0          0          0          0          0          1          0          0          0          0    95.0 [76,99]   0
+openai/gpt-oss-120b         moiety_network_pert     B      20         14          0          0          6          0          0          0          0          0          0          0    70.0 [48,85]   0
+openai/gpt-oss-120b         rigid_body_1_2_3        A      20         19          0          0          1          0          0          0          0          0          0          0    95.0 [76,99]   0
+openai/gpt-oss-120b         rigid_body_1_2_3        B      20         16          0          0          3          0          0          0          0          0          1          0    80.0 [58,92]   0
+openai/gpt-oss-120b         rigid_body_3_5_11_pert  A      20         18          0          0          0          0          0          2          0          0          0          0    90.0 [70,97]   0
+openai/gpt-oss-120b         rigid_body_3_5_11_pert  B      20         11          0          0          3          0          0          5          0          1          0          0    55.0 [34,74]   0
+openai/gpt-oss-120b         twisted_cubic           A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+openai/gpt-oss-120b         twisted_cubic           B      20         17          0          0          0          3          0          0          0          0          0          0    85.0 [64,95]   0
+openai/gpt-oss-120b         twisted_cubic_pert      A      20         20          0          0          0          0          0          0          0          0          0          0   100.0 [84,100]   0
+openai/gpt-oss-120b         twisted_cubic_pert      B      20          0          0          0          0          0          0          0         19          1          0          0     0.0 [0,16]   0
+
+Scoring policies on identical outputs (rates in %, gaps in percentage points):
+  Reconstruction, trivial and incomplete columns are disjoint additional accepted counts.
+  gemini-3.5-flash-lite       acrobot                 A    strict   5.0%  task-valid   5.0% [1,24]  naive   5.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       acrobot                 B    strict  30.0%  task-valid  30.0% [15,52]  naive  30.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       acrobot_pert            A    strict   0.0%  task-valid   0.0% [0,16]  naive   0.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       acrobot_pert            B    strict  15.0%  task-valid  15.0% [5,36]  naive  15.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       kepler                  A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       kepler                  B    strict  90.0%  task-valid  90.0% [70,97]  naive  90.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       kepler_pert             A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       kepler_pert             B    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       moiety_network          A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       moiety_network          B    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       moiety_network_pert     A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       moiety_network_pert     B    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       rigid_body_1_2_3        A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       rigid_body_1_2_3        B    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       rigid_body_3_5_11_pert  A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       rigid_body_3_5_11_pert  B    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       twisted_cubic           A    strict  95.0%  task-valid  95.0% [76,99]  naive 100.0%  valid-strict  0.0 pts  naive-valid  5.0 pts  reconstructed 0/20  trivial 0/20  incomplete 1/20
+  gemini-3.5-flash-lite       twisted_cubic           B    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       twisted_cubic_pert      A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gemini-3.5-flash-lite       twisted_cubic_pert      B    strict   5.0%  task-valid   5.0% [1,24]  naive   5.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                acrobot                 A    strict   0.0%  task-valid   0.0% [0,16]  naive   5.0%  valid-strict  0.0 pts  naive-valid  5.0 pts  reconstructed 0/20  trivial 1/20  incomplete 0/20
+  gpt-oss-120b                acrobot                 B    strict   5.0%  task-valid   5.0% [1,24]  naive   5.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                acrobot_pert            A    strict   0.0%  task-valid   0.0% [0,16]  naive  25.0%  valid-strict  0.0 pts  naive-valid 25.0 pts  reconstructed 0/20  trivial 5/20  incomplete 0/20
+  gpt-oss-120b                acrobot_pert            B    strict   0.0%  task-valid   0.0% [0,16]  naive  10.0%  valid-strict  0.0 pts  naive-valid 10.0 pts  reconstructed 0/20  trivial 2/20  incomplete 0/20
+  gpt-oss-120b                kepler                  A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                kepler                  B    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                kepler_pert             A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                kepler_pert             B    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                moiety_network          A    strict  90.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict 10.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                moiety_network          B    strict  70.0%  task-valid  95.0% [76,99]  naive  95.0%  valid-strict 25.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                moiety_network_pert     A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                moiety_network_pert     B    strict  75.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict 25.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                rigid_body_1_2_3        A    strict  95.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  5.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                rigid_body_1_2_3        B    strict  75.0%  task-valid  95.0% [76,99]  naive  95.0%  valid-strict 20.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                rigid_body_3_5_11_pert  A    strict  90.0%  task-valid  95.0% [76,99]  naive  95.0%  valid-strict  5.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                rigid_body_3_5_11_pert  B    strict  60.0%  task-valid  70.0% [48,85]  naive  70.0%  valid-strict 10.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                twisted_cubic           A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                twisted_cubic           B    strict  90.0%  task-valid  90.0% [70,97]  naive 100.0%  valid-strict  0.0 pts  naive-valid 10.0 pts  reconstructed 0/20  trivial 0/20  incomplete 2/20
+  gpt-oss-120b                twisted_cubic_pert      A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  gpt-oss-120b                twisted_cubic_pert      B    strict   5.0%  task-valid   5.0% [1,24]  naive   5.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  implicit-sindy(pysindy-lib) acrobot                 B    strict   0.0%  task-valid   0.0% [0,20]  naive   6.7%  valid-strict  0.0 pts  naive-valid  6.7 pts  reconstructed 0/15  trivial 1/15  incomplete 0/15
+  implicit-sindy(pysindy-lib) acrobot_pert            B    strict   0.0%  task-valid   0.0% [0,20]  naive  13.3%  valid-strict  0.0 pts  naive-valid 13.3 pts  reconstructed 0/15  trivial 2/15  incomplete 0/15
+  implicit-sindy(pysindy-lib) kepler                  B    strict  33.3%  task-valid  33.3% [15,58]  naive  86.7%  valid-strict  0.0 pts  naive-valid 53.3 pts  reconstructed 8/15  trivial 0/15  incomplete 0/15
+  implicit-sindy(pysindy-lib) kepler_pert             B    strict   0.0%  task-valid   0.0% [0,20]  naive  66.7%  valid-strict  0.0 pts  naive-valid 66.7 pts  reconstructed 10/15  trivial 0/15  incomplete 0/15
+  implicit-sindy(pysindy-lib) moiety_network          B    strict   6.7%  task-valid  93.3% [70,99]  naive 100.0%  valid-strict 86.7 pts  naive-valid  6.7 pts  reconstructed 1/15  trivial 0/15  incomplete 0/15
+  implicit-sindy(pysindy-lib) moiety_network_pert     B    strict  13.3%  task-valid  20.0% [7,45]  naive  33.3%  valid-strict  6.7 pts  naive-valid 13.3 pts  reconstructed 2/15  trivial 0/15  incomplete 0/15
+  implicit-sindy(pysindy-lib) rigid_body_1_2_3        B    strict   0.0%  task-valid   0.0% [0,20]  naive  40.0%  valid-strict  0.0 pts  naive-valid 40.0 pts  reconstructed 6/15  trivial 0/15  incomplete 0/15
+  implicit-sindy(pysindy-lib) rigid_body_3_5_11_pert  B    strict   0.0%  task-valid   0.0% [0,20]  naive   0.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/15  trivial 0/15  incomplete 0/15
+  implicit-sindy(pysindy-lib) twisted_cubic           B    strict   0.0%  task-valid   0.0% [0,20]  naive 100.0%  valid-strict  0.0 pts  naive-valid 100.0 pts  reconstructed 0/15  trivial 0/15  incomplete 15/15
+  implicit-sindy(pysindy-lib) twisted_cubic_pert      B    strict   0.0%  task-valid   0.0% [0,20]  naive  20.0%  valid-strict  0.0 pts  naive-valid 20.0 pts  reconstructed 2/15  trivial 0/15  incomplete 1/15
+  openai/gpt-oss-120b         acrobot                 A    strict   5.0%  task-valid   5.0% [1,24]  naive  15.0%  valid-strict  0.0 pts  naive-valid 10.0 pts  reconstructed 0/20  trivial 2/20  incomplete 0/20
+  openai/gpt-oss-120b         acrobot                 B    strict  10.0%  task-valid  10.0% [3,30]  naive  10.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         acrobot_pert            A    strict   0.0%  task-valid   0.0% [0,16]  naive   5.0%  valid-strict  0.0 pts  naive-valid  5.0 pts  reconstructed 0/20  trivial 1/20  incomplete 0/20
+  openai/gpt-oss-120b         acrobot_pert            B    strict   0.0%  task-valid   0.0% [0,16]  naive   5.0%  valid-strict  0.0 pts  naive-valid  5.0 pts  reconstructed 0/20  trivial 1/20  incomplete 0/20
+  openai/gpt-oss-120b         kepler                  A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         kepler                  B    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         kepler_pert             A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         kepler_pert             B    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         moiety_network          A    strict  95.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  5.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         moiety_network          B    strict  90.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict 10.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         moiety_network_pert     A    strict  95.0%  task-valid  95.0% [76,99]  naive  95.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         moiety_network_pert     B    strict  70.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict 30.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         rigid_body_1_2_3        A    strict  95.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  5.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         rigid_body_1_2_3        B    strict  80.0%  task-valid  95.0% [76,99]  naive  95.0%  valid-strict 15.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         rigid_body_3_5_11_pert  A    strict  90.0%  task-valid  90.0% [70,97]  naive  90.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         rigid_body_3_5_11_pert  B    strict  55.0%  task-valid  70.0% [48,85]  naive  70.0%  valid-strict 15.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         twisted_cubic           A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         twisted_cubic           B    strict  85.0%  task-valid  85.0% [64,95]  naive 100.0%  valid-strict  0.0 pts  naive-valid 15.0 pts  reconstructed 0/20  trivial 0/20  incomplete 3/20
+  openai/gpt-oss-120b         twisted_cubic_pert      A    strict 100.0%  task-valid 100.0% [84,100]  naive 100.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+  openai/gpt-oss-120b         twisted_cubic_pert      B    strict   0.0%  task-valid   0.0% [0,16]  naive   0.0%  valid-strict  0.0 pts  naive-valid  0.0 pts  reconstructed 0/20  trivial 0/20  incomplete 0/20
+
+First-polynomial rule audit (conserved tasks, answers with >1 polynomial):
+
+Plausible-but-wrong count vs data-fit threshold (stated, non-conserved answers with a recorded fit value):
+  gemini-3.5-flash-lite        n= 59  <1e-3:   0  <1e-2:   0  <5e-2:  15  min=1.65e-02
+  gpt-oss-120b                 n= 38  <1e-3:   0  <1e-2:   0  <5e-2:   2  min=1.38e-02
+  implicit-sindy(pysindy-lib)  n=109  <1e-3:  84  <1e-2:  86  <5e-2:  97  min=1.98e-14
+  openai/gpt-oss-120b          n= 44  <1e-3:   0  <1e-2:   0  <5e-2:   2  min=1.76e-02
+
+Plausible-but-wrong among stated answers (per model, per system):
+  gemini-3.5-flash-lite       acrobot                 A    0/17 = 0% [0,18]
+  gemini-3.5-flash-lite       acrobot                 B    0/15 = 0% [0,20]
+  gemini-3.5-flash-lite       acrobot_pert            A    0/14 = 0% [0,22]
+  gemini-3.5-flash-lite       acrobot_pert            B    0/14 = 0% [0,22]
+  gemini-3.5-flash-lite       kepler                  A    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       kepler                  B    0/18 = 0% [0,18]
+  gemini-3.5-flash-lite       kepler_pert             A    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       kepler_pert             B    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       moiety_network          A    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       moiety_network          B    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       moiety_network_pert     A    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       moiety_network_pert     B    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       rigid_body_1_2_3        A    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       rigid_body_1_2_3        B    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       rigid_body_3_5_11_pert  A    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       rigid_body_3_5_11_pert  B    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       twisted_cubic           A    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       twisted_cubic           B    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       twisted_cubic_pert      A    0/20 = 0% [0,16]
+  gemini-3.5-flash-lite       twisted_cubic_pert      B    0/10 = 0% [0,28]
+  gpt-oss-120b                acrobot                 A    0/14 = 0% [0,22]
+  gpt-oss-120b                acrobot                 B    0/11 = 0% [0,26]
+  gpt-oss-120b                acrobot_pert            A    0/8 = 0% [0,32]
+  gpt-oss-120b                acrobot_pert            B    0/6 = 0% [0,39]
+  gpt-oss-120b                kepler                  A    0/20 = 0% [0,16]
+  gpt-oss-120b                kepler                  B    0/20 = 0% [0,16]
+  gpt-oss-120b                kepler_pert             A    0/20 = 0% [0,16]
+  gpt-oss-120b                kepler_pert             B    0/20 = 0% [0,16]
+  gpt-oss-120b                moiety_network          A    0/20 = 0% [0,16]
+  gpt-oss-120b                moiety_network          B    0/20 = 0% [0,16]
+  gpt-oss-120b                moiety_network_pert     A    0/20 = 0% [0,16]
+  gpt-oss-120b                moiety_network_pert     B    0/20 = 0% [0,16]
+  gpt-oss-120b                rigid_body_1_2_3        A    0/20 = 0% [0,16]
+  gpt-oss-120b                rigid_body_1_2_3        B    0/19 = 0% [0,17]
+  gpt-oss-120b                rigid_body_3_5_11_pert  A    0/20 = 0% [0,16]
+  gpt-oss-120b                rigid_body_3_5_11_pert  B    0/20 = 0% [0,16]
+  gpt-oss-120b                twisted_cubic           A    0/20 = 0% [0,16]
+  gpt-oss-120b                twisted_cubic           B    0/20 = 0% [0,16]
+  gpt-oss-120b                twisted_cubic_pert      A    0/20 = 0% [0,16]
+  gpt-oss-120b                twisted_cubic_pert      B    0/1 = 0% [0,79]
+  implicit-sindy(pysindy-lib) acrobot                 B    1/15 = 7% [1,30]
+  implicit-sindy(pysindy-lib) acrobot_pert            B    1/15 = 7% [1,30]
+  implicit-sindy(pysindy-lib) kepler                  B    2/15 = 13% [4,38]
+  implicit-sindy(pysindy-lib) kepler_pert             B    5/15 = 33% [15,58]
+  implicit-sindy(pysindy-lib) moiety_network          B    0/15 = 0% [0,20]
+  implicit-sindy(pysindy-lib) moiety_network_pert     B    10/15 = 67% [42,85]
+  implicit-sindy(pysindy-lib) rigid_body_1_2_3        B    9/15 = 60% [36,80]
+  implicit-sindy(pysindy-lib) rigid_body_3_5_11_pert  B    15/15 = 100% [80,100]
+  implicit-sindy(pysindy-lib) twisted_cubic           B    0/15 = 0% [0,20]
+  implicit-sindy(pysindy-lib) twisted_cubic_pert      B    12/15 = 80% [55,93]
+  openai/gpt-oss-120b         acrobot                 A    0/19 = 0% [0,17]
+  openai/gpt-oss-120b         acrobot                 B    0/13 = 0% [0,23]
+  openai/gpt-oss-120b         acrobot_pert            A    0/3 = 0% [0,56]
+  openai/gpt-oss-120b         acrobot_pert            B    0/8 = 0% [0,32]
+  openai/gpt-oss-120b         kepler                  A    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         kepler                  B    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         kepler_pert             A    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         kepler_pert             B    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         moiety_network          A    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         moiety_network          B    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         moiety_network_pert     A    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         moiety_network_pert     B    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         rigid_body_1_2_3        A    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         rigid_body_1_2_3        B    0/19 = 0% [0,17]
+  openai/gpt-oss-120b         rigid_body_3_5_11_pert  A    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         rigid_body_3_5_11_pert  B    0/19 = 0% [0,17]
+  openai/gpt-oss-120b         twisted_cubic           A    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         twisted_cubic           B    0/20 = 0% [0,16]
+  openai/gpt-oss-120b         twisted_cubic_pert      A    0/20 = 0% [0,16]
+
+Most frequent monomials in nonzero Lie-derivative remainders:
+  acrobot                 c1*s2*w1                    51
+  acrobot                 c1*c2*s2*w1                 48
+  acrobot                 c1*s2**3*w1                 47
+  acrobot                 c1*s2*w2                    47
+  acrobot                 c2*s1*s2**2*w1              47
+  acrobot                 c1*s2**3*w2                 44
+  acrobot                 c2*s1*s2**2*w2              44
+  acrobot                 c2*s1*w1                    42

@@ -1,0 +1,68 @@
+ok   Paper claim baseline_verdicts
+ok   Paper claim cubic_nonreference
+ok   Paper claim deployments
+ok   Paper claim kepler_references
+ok   Paper claim llm_verdicts
+ok   Paper claim maxGap
+ok   Paper claim medianGap
+ok   Paper claim medianPositiveGap
+ok   Paper claim minGap
+ok   Paper claim multi_cells
+ok   Paper claim nAcrobot
+ok   Paper claim nAcrobotExact
+ok   Paper claim nAllLoss
+ok   Paper claim nAllValid
+ok   Paper claim nBaseline
+ok   Paper claim nBestGain
+ok   Paper claim nCASLiteral
+ok   Paper claim nCASNonalgebraic
+ok   Paper claim nCASReconstructed
+ok   Paper claim nCriterionOnly
+ok   Paper claim nCriterionTaskOnly
+ok   Paper claim nDecimal
+ok   Paper claim nExact
+ok   Paper claim nFirstValid
+ok   Paper claim nFit
+ok   Paper claim nFitLow
+ok   Paper claim nFitMid
+ok   Paper claim nGapCells
+ok   Paper claim nKepler
+ok   Paper claim nKeplerAngular
+ok   Paper claim nKeplerEnergy
+ok   Paper claim nLLM
+ok   Paper claim nLegacyLow
+ok   Paper claim nLegacyMid
+ok   Paper claim nMulti
+ok   Paper claim nNonReference
+ok   Paper claim nPrimary
+ok   Paper claim nUnparseable
+ok   Paper claim nZeroGapCells
+ok   Paper claim quadratic_nonreference
+ok   Paper claim rational_baseline
+ok   Summary artifact matches recomputation
+ok   Manuscript numeric macros match data
+ok   Raw/graded identities primary/raw_groq
+ok   Raw/graded identities primary/raw_cerebras
+ok   Raw/graded identities primary/raw_gemini
+ok   Raw/graded identities raw_sindy15
+ok   Combined dataset includes only selected primary runs
+ok   Numerical raw/graded identities raw_sindy15
+ok   Numerical system/seed coverage raw_sindy15
+ok   Numerical raw/graded identities raw_rational15
+ok   Numerical system/seed coverage raw_rational15
+ok   Numerical baseline scope
+ok   Independent CAS covers selected raw files
+ok   Independent CAS rows
+ok   Independent CAS mismatches
+ok   Independent CAS generated script hash
+ok   acrobot denominator saturation unchanged
+ok   acrobot denominator positive on circle
+ok   acrobot constraint combinations are trivial
+ok   acrobot_pert denominator saturation unchanged
+ok   acrobot_pert denominator positive on circle
+ok   acrobot_pert constraint combinations are trivial
+ok   All LLM non-reference answers explained by reference products/cube
+ok   Kepler classifications have no ambiguous residual category
+ok   LLM exact-after-reconstruction count
+
+0 mismatch(es)

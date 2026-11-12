@@ -1,0 +1,16 @@
+{
+  "schema": "corrected-paper-primary-v1",
+  "slots_per_provider": 400,
+  "total_slots": 1200,
+  "plan_sha256": "73cdbc108b6a427d7a3542d704b69b6abb61daa9b19477854c83dce8e59f70b0",
+  "raw_sha256": {
+    "groq": "f10d664d1cd48648bba8254f5d31f5669e925457cc8dd1f2e30e7a96b57d3252",
+    "cerebras": "8d4079f67323eceb65758e6973a172eaa214a079388d2d15c06e3cdffab3b689",
+    "gemini": "19b1c14efc227934b28a49e035666ba23ad4415f6099cdd1cc820affcb3ce63a"
+  },
+  "initial_groq_responses": 379,
+  "initial_groq_transport_failures": 21,
+  "followup_groq_responses": 21,
+  "followup_policy": "Same exact prompts and generation settings; transport-only retries. 120 seconds between requests, minimum 900-second error cooldown; honor longer Retry-After. Never resample a returned answer.",
+  "followup_audit_sha256": "03af52ad15631c3e3aa0ce8a5923728ef481bbc91334ca42e7f5e45f19f8cfe3"
+}

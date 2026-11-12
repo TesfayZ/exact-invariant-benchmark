@@ -1,0 +1,17 @@
+{
+  "cas": "Singular for x86_64-Linux version 4.4.1 (44105, 64 bit) Dec  6 2025 11:10:58",
+  "primary_rows": 1350,
+  "source_raw_sha256": {
+    "primary/raw_groq": "f10d664d1cd48648bba8254f5d31f5669e925457cc8dd1f2e30e7a96b57d3252",
+    "primary/raw_cerebras": "8d4079f67323eceb65758e6973a172eaa214a079388d2d15c06e3cdffab3b689",
+    "primary/raw_gemini": "19b1c14efc227934b28a49e035666ba23ad4415f6099cdd1cc820affcb3ce63a",
+    "raw_sindy15": "4a72bb1e1c1066acb1b936e2893a9013397303c752a94e77cc1d7dc1fb150ee7"
+  },
+  "checked_literal_rows": 1198,
+  "checked_reconstructed_rows": 29,
+  "nonalgebraic_rows": 152,
+  "checks": 1227,
+  "mismatches": [],
+  "scope": "Shared parser and system definitions; independent Singular differentiation, ideal membership/equality, quotient triviality and affine reference-span test. Numerical proximity and nonalgebraic verdicts excluded.",
+  "script_sha256": "f983ac3b9d8a7d36e36028a53437f0d46317812bb454898fab9ebbcda97e19a3"
+}

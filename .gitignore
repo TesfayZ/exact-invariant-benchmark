@@ -1,0 +1,56 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local backend checkout; the reproducible backend is tracked under vendor/
+/algebraicRLtest/
+
+# Machine-local state and credentials
+/.aws/
+/.codex/
+/.agents/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+
+# Local archives, collector working copies, and scratch runs
+/backups/
+/submission/
+/submissions/
+/results/recollection/
+/results/new_*.jsonl
+*.bak
+*.jsonl.bak
+*.json.bak
+*.jsonl.tmp
+collection.lock
+reproduce.log
+
+# TeX intermediates; keep manuscript sources, styles, figures, and final PDFs
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.blg
+*.bbl
+texput.*
+
+# Editor, OS, and Windows download metadata
+.DS_Store
+Thumbs.db
+*.swp
+*~
+*zone.identifiers
+*:Zone.Identifier
+/runs/
